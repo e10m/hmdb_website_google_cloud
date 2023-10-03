@@ -1,0 +1,109 @@
+a, a:hover, a:focus, a:active {
+    text-decoration: none;
+    outline: none;
+    color: black;
+    border: none;
+    box-shadow: none;
+}
+
+#header_container {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 70px;
+    padding-right: 250px;
+    padding-left: 250px;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+    height: 80px;
+    width: 175px;
+}
+
+#links_container {
+    gap: 24px;
+}
+
+.extra_buttons {
+    color: #000;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    opacity: 60%;
+    gap:24px;
+}
+
+.extra_buttons:hover {
+    opacity: 80%;
+    cursor: pointer;
+}
+
+#schema_container {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+#schema {
+    max-width: 70%;
+    border-radius: 16px;
+}
+
+.text_info {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+
+    gap:24px;
+    padding-top: 50px;
+    padding-left: 400px;
+    padding-right: 400px;
+}
+
+#about_info div {
+    display: flex;
+    gap: 24px;
+}
+
+.text_info p {
+    margin-block-start: 0em;
+    color: #000;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+#back_button {
+    opacity: 60%;
+}
+
+#back_button:hover {
+    opacity: 80%;
+}
+
+.header p {
+    color: #000;
+    font-family: Inter;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+#writeup_info {
+    padding-bottom: 25px;
+}
+
+#writeup {
+    height: 1100px;
+    width:100%;
+}

@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>HMDB Protein Search</title>
+    <link rel="stylesheet" type="text/css" href="../css/front_page.css" />
+    <!-- updated JQuery library to 3.7.0 and 1.13.2 -->
+    <link rel="stylesheet" type="text/css" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.13.2/themes/smoothness/jquery-ui.css"/>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.13.2/jquery-ui.min.js"></script>
+    <script type="module" src="../js/main.js"></script>
+    <script src="https://kit.fontawesome.com/129c24cae6.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+<div class="main_div">
+    <div id="header_container">
+        <!-- Placeholder invisible divs -->
+        <div class="placeholder_div">
+            <i class="fa-solid fa-arrow-left fa-2x" id="back_button"></i>
+        </div>
+
+        <div class="placeholder_div">
+            <p>Results</p>
+        </div>
+
+        <div class="header" id="links_container">
+            <span class="extra_buttons"><a href="./about_page.html">About</a></span>
+            <span class="extra_buttons"><a href="./schema_page.html">Schema</a></span>
+            <span class="extra_buttons"><a href="./writeup_page.html">Writeup</a></span>
+        </div>
+    </div>
+
+    <div id="main_contents_div">
+        <h1 id="title">Human Body Protein Search</h1>
+        <form id="protein_search">
+            <input name="search_term" id="autocomplete" type="text" value="" autofocus="autofocus"
+                   placeholder="eg: Glucokinase, HMDBP10676, SRY">
+            <input name="submit" id="main_submit" type="submit" style="display: none;">
+        </form>
+
+        <div id="results" style="display: none;">
+            <!-- After first search -->
+            <form id="subheader_search_form">
+                <input name="search_term" id="subheader_search_bar" type="text" value="" placeholder="Type to Search Proteins">
+                <input name="submit" id="post_submit" type="submit" style="display: none;">
+            </form>
+
+            <span id="match_count">0 match(es) found.</span>
+
+            <table id="initial_table">
+                <thead>
+                <tr>
+                    <td>Name</td>
+                    <td>Gene Name</td>
+                    <td>Type</td>
+                    <td>Accession</td>
+                    <td>Version</td>
+                    <td>Creation Date</td>
+                    <td>Last Modified</td>
+                </tr>
+                </thead>
+                <tbody id="first_body">
+                <!-- this will be filled in by javascript when there are results -->
+                </tbody>
+            </table>
+            <div id="last_page_table_container" style="display: none;">
+                <table id="protein_info_buttons" style="display: none;">
+                    <tbody id="prot_info_body">
+                    <tr>
+                        <td>Biological Functions</td>
+                    </tr>
+                    <tr>
+                        <td>Protein Properties</td>
+                    </tr>
+                    <tr>
+                        <td>Gene Properties</td>
+                    </tr>
+                    <tr>
+                        <td>Pathways</td>
+                    </tr>
+                    <tr>
+                        <td>Metabolites</td>
+                    </tr>
+                    <tr>
+                        <td>Go Classification</td>
+                    </tr>
+                    <tr>
+                        <td>Additional Info</td>
+                    </tr>
+                    <tr>
+                        <td>Literature</td>
+                    </tr>
+                    </tbody>
+                </table>
+
+                <table id="second_table" style="display: none;">
+                    <thead>
+
+                    </thead>
+
+                    <tbody id="second_body">
+                    <td>Name</td>
+                    <td>Gene Name</td>
+                    <td>Type</td>
+                    <td>Accession</td>
+                    <td>Version</td>
+                    <td>Creation Date</td>
+                    <td>Last Modified</td>
+                    <!-- more results to be appended with JS -->
+                    </tbody>
+                </table>
+            </div>
+
+            <div class="protein_info_container" style="display: none">
+                <table id="protein_info_table">
+                    <thead>
+                    <tr>
+                        <!-- fill in with javascript -->
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <!-- this will be filled in by javascript when there are results -->
+                    </tbody>
+                </table>
+            </div>
+
+        </div>
+    </div>
+</body>
+</html>
