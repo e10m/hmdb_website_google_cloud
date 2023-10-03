@@ -10,7 +10,7 @@ from table_populator import populate_tables
 
 def main():
     # connect to database
-    conn = mysql.connector.connect(user='root', password='Ganbare1!!', host='localhost', database='hmdb')
+    conn = mysql.connector.connect(user='root', password='***', host='localhost', database='hmdb')
     cursor = conn.cursor()
 
     # parse hard coded XML file
