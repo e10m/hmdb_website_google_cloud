@@ -1,5 +1,3 @@
-#!/usr/local/bin/python3
-
 import cgi
 import json
 import os
@@ -13,7 +11,7 @@ def main():
     accession = form.getvalue('accession')
 
     # connecting to MySQL server
-    conn = mysql.connector.connect(user='dmach1', password='Ganbare1!!', host='localhost', database='dmach1')
+    conn = mysql.connector.connect(user='root', password='***', host='localhost', database='hmdb')
     cursor = conn.cursor()
 
     # --- SQL QUERIES --- #
