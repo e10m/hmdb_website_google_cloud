@@ -10,10 +10,10 @@ export function runSearch(selector) {
         dataType: 'json',
         data: frmStr,
         success: function(data, textStatus, jqXHR) {
-            console.log(data);
             processJSON(data);
         },
         error: function(jqXHR, textStatus, errorThrown){
+            console.log(data)
             alert("Failed to perform gene search! textStatus: (" + textStatus +
                 ") and errorThrown: (" + errorThrown + ")");
         }
