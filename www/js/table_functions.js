@@ -45,7 +45,8 @@ export function perform_queries( sql_table ) {
 
     // sends information to CGI script
     $.ajax({
-            url: '../sql_queries.cgi',
+            // todo: ../sql_queries.cgi
+            url: '/sql_queries.cgi',
             method: 'POST',
             data: {'sql_table': sql_table, 'accession': clicked_accession},
             dataType: 'json',

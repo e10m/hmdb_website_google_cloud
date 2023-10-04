@@ -5,7 +5,8 @@ export function runSearch(selector) {
     var frmStr = $(selector).serialize();
 
     $.ajax({
-        url: '../protein_search.cgi',
+        // todo: ../protein_search.cgi
+        url: '/protein_search.cgi',
         dataType: 'json',
         data: frmStr,
         success: function(data, textStatus, jqXHR) {
