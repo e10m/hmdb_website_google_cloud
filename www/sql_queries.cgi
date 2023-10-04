@@ -1,3 +1,6 @@
+#!/usr/bin/python3
+
+
 import cgi
 import json
 import os
