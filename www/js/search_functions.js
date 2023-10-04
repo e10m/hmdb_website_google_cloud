@@ -13,9 +13,9 @@ export function runSearch(selector) {
             processJSON(data);
         },
         error: function(jqXHR, textStatus, errorThrown){
-            console.log(data)
             alert("Failed to perform gene search! textStatus: (" + textStatus +
                 ") and errorThrown: (" + errorThrown + ")");
+            console.log(textStatus, errorThrown)
         }
     });
 }
