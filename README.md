@@ -1,7 +1,6 @@
 # Human Body Protein Search
 
-> NOTE: The 'final' package and README.md is written by Dien Mach (dmach1).
-
+> NOTE: The 'www' package and README.md is written by Dien Mach (dmach1).
 
 ## About:
 This is a web-based search engine for obtaining information about specific proteins or enzymes
@@ -14,12 +13,11 @@ This README will instruct users how to use and navigate the website.
 This document is written in Markdown.
 
 ## Storage and Access
-The live code is deployed on the JHU BFX3 Apache server while the source code is stored in a private GitHub repository. 
-The protein SQL database is also stored on the JHU BFX3 Apache server.
+* The live code and protein SQL database is deployed on a Google Cloud instance which can be accessed at http://34.94.137.66/
+    * **NOTE**: The URL is http access only, not https
 
 The project directory can be found at:
-* /var/www/html/dmach1/adv_pcc_final/final
-* https://github.com/e10m/adv_pcc_final
+* https://github.com/e10m/hmdb_website_google_cloud
 
 ## Recommended Browsers
 * Google Chrome, Firefox, Edge, Safari, and Opera are all recommended browsers
@@ -29,15 +27,15 @@ The project directory can be found at:
 * NOTE: Internet Explorer is not supported by this tool
 
 ## Main Usage:
-1. Connect to **Johns Hopkins Campus Wi-Fi** or connect to the **JHU VPN** if accessing from off-campus
-2. Input the [URL](http://bfx3.aap.jhu.edu/dmach1/adv_pcc_final/final/templates/front_page.html) into your browser
-3. Search for a protein
+1. Input the [URL](http://34.94.137.66/) into your browser
+   * **NOTE**: The server is hosted from Monday to Friday 5 AM - 5 PM PST
+2. Search for a protein
    * eg: 
      * Glucokinase (protein)
      * HMDBP10676 (HMDB accession number)
      * SRY (gene name)
-4. Select the desired protein from the resulting (if any) table that appears
-5. Select a category (usually on the left) by clicking on the blue buttons for more specific categorical information about the protein
+3. Select the desired protein from the resulting (if any) table that appears
+4. Select a category (usually on the left) by clicking on the blue buttons for more specific categorical information about the protein
     * eg:
       * Biological Functions, Literature
 
