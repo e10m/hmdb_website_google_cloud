@@ -13,7 +13,7 @@ This README will instruct users how to use and navigate the website.
 This document is written in Markdown.
 
 ## Storage and Access
-* The live code and protein SQL database is deployed on a Google Cloud instance which can be accessed at http://34.94.137.66/
+* The live code and protein SQL database is deployed on a Google Cloud instance which can be accessed at [http://34.94.187.152/](http://34.94.187.152/)
     * **NOTE**: The URL is http access only, not https
 
 The project directory can be found at:
