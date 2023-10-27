@@ -27,7 +27,7 @@ The project directory can be found at:
 * NOTE: Internet Explorer is not supported by this tool
 
 ## Main Usage:
-1. Input the [URL](http://34.94.137.66/) into your browser
+1. Input the [URL](http://34.94.187.152/) into your browser
    * **NOTE**: The server is hosted from Monday to Friday 5 AM - 5 PM PST
 2. Search for a protein
    * eg: 
