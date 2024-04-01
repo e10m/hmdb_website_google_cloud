@@ -15,6 +15,7 @@ This document is written in Markdown.
 ## Storage and Access
 * The live code and protein SQL database is deployed on a Google Cloud instance which can be accessed at [http://34.94.187.152/](http://34.94.187.152/)
     * **NOTE**: The URL is http access only, not https
+    * **NOTE** (**3/31/24**): The server is hosted from Monday to Friday 5 AM - 8 PM PST
 
 The project directory can be found at:
 * https://github.com/e10m/hmdb_website_google_cloud
@@ -28,7 +29,7 @@ The project directory can be found at:
 
 ## Main Usage:
 1. Input the [URL](http://34.94.187.152/) into your browser
-   * **NOTE**: The server is hosted from Monday to Friday 5 AM - 5 PM PST
+   
 2. Search for a protein
    * eg: 
      * Glucokinase (protein)
