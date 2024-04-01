@@ -28,18 +28,25 @@ The project directory can be found at:
 * NOTE: Internet Explorer is not supported by this tool
 
 ## Main Usage:
-1. Input the [URL](http://34.94.187.152/) into your browser
-   
+1. Input the [URL](http://34.94.187.152/) into your browser and proceed to website
+![image](www/images/front_page.PNG)
 2. Search for a protein
    * eg: 
      * Glucokinase (protein)
      * HMDBP10676 (HMDB accession number)
      * SRY (gene name)
+     * **Creatine** (biological term)
+       * Used as the example query in the image below
+
+![image](www/images/creatine_search_page_1.PNG)
 3. Select the desired protein from the resulting (if any) table that appears
+
+![image](www/images/creatine_search_page_2.PNG)
 4. Select a category (usually on the left) by clicking on the blue buttons for more specific categorical information about the protein
     * eg:
-      * Biological Functions, Literature
+      * Biological Functions, **Literature**
 
+![image](www/images/creatine_search_page_2b.PNG)
 ## Citations:
 For more information about the original database, please visit the [HMDB website](https://hmdb.ca/).
 1. Wishart DS, Tzur D, Knox C, et al., HMDB: the Human Metabolome Database. Nucleic Acids Res. 2007 Jan;35(Database issue):D521-6. 17202168
