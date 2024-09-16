@@ -1,6 +1,6 @@
 # Human Body Protein Search
 
-> NOTE: The 'www' package and README.md is written by Dien Mach (dmach1).
+> NOTE: The 'www' package and README.md is written by Dien "Ethan" Mach.
 
 ## About:
 This is a web-based search engine for obtaining information about specific proteins or enzymes
